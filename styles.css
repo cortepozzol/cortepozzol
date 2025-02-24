@@ -83,3 +83,10 @@ footer {
     max-width: 100%;
     height: auto; 
 }
+
+.placeholder {
+  background-color: #5D3W27;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
