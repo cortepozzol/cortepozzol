@@ -118,10 +118,14 @@ footer {
 }
 
 .amenities-container img {
-    width: 30px; /* Make the icons smaller */
-    height: 30px; /* Ensure consistent size */
-    object-fit: contain; /* Ensure the image scales properly */
+    width: 30px !important;  /* Force smaller size */
+    height: 30px !important;
+    object-fit: contain; /* Ensure correct scaling */
+    display: block; /* Remove any extra space around images */
+    padding: 0; /* Remove unwanted spacing */
+    margin: 0 auto; /* Ensure centering */
 }
+
 
 
 
