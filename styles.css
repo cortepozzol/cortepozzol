@@ -44,6 +44,12 @@ header nav ul li a {
     margin: 0 auto; /* Centers the entire section */
 }
 
+.image-container {
+    display: flex; /* Ensures image is centered inside */
+    justify-content: center; /* Centers image horizontally */
+    align-items: center;
+    width: 100%;
+}
 
 .hero h1 {
   font-size: 3em;
@@ -90,11 +96,9 @@ footer {
   padding: 10px 
 
 .responsive-img {
-    width: 100%; /* Stretches to fill parent container */
-    max-width: 800px; /* Matches .placeholder */
+    max-width: 100%; /* Ensures the image never exceeds its container */
     height: auto; /* Maintains aspect ratio */
-    display: block;
-    margin: 0 auto;
+    display: block; /* Removes extra space below the image */
 }
 
 
