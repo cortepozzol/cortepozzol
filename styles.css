@@ -30,7 +30,7 @@ header nav ul li a {
 
 
 .hero {
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), 
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
               url('images/pexels-simone-coltri-14865557-6317420.jpg');
   background-size: cover;
   background-position: center;
@@ -67,7 +67,7 @@ header nav ul li a {
 
 
 .hero h1 {
-  font-size: 76px;  
+  font-size: 88px;  
   margin-bottom: 3px;  /* Adjust space below the h1 */
 }
 
@@ -121,14 +121,14 @@ footer {
     background-color: #000000;
     color: white;
     text-align: center;
-    padding: 40px 0;
-    max-width: 1000px; /* Limits section width */
+    padding: 20px 0;
+    max-width: 900px; /* Limits section width */
     margin: 0 auto; /* Centers the section */
 }
 
 .image-container-amenities {
     width: 100%;
-    max-width: 1000px; /* Set a maximum width for the image */
+    max-width: 900px; /* Set a maximum width for the image */
     margin: 0 auto; /* Center the image horizontally */
     overflow: hidden; /* Prevents overflow issues */
 }
