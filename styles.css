@@ -30,7 +30,7 @@ header nav ul li a {
 
 
 .hero {
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), 
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), 
               url('images/pexels-simone-coltri-14865557-6317420.jpg');
   background-size: cover;
   background-position: center;
@@ -118,23 +118,19 @@ footer {
   padding: 10px 
 
 .amenities {
+    background-color: #000000;
+    color: white;
     text-align: center;
     padding: 40px 0;
-    background-color: #f8f8f8; /* Optional background color */
+    max-width: 1200px; /* Limits section width */
+    margin: 0 auto; /* Centers the section */
 }
 
-.amenities-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    gap: 10px; /* Space between icons */
-    max-width: 100%; /* Adjust width to fit content */
-    margin: 0 auto; /* Centering */
-    justify-items: center; /* Center icons */
-}
-
-section.amenities .amenities-container img {
-    width: 50px !important;
-    height: 50px !important;
+.image-container-amenities {
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the image */
+    margin: 0 auto; /* Center the image horizontally */
+    overflow: hidden; /* Prevents overflow issues */
 }
 
 
