@@ -90,12 +90,13 @@ footer {
   padding: 10px 
 
 .responsive-img {
-    max-width: 100%; /* Ensures it doesn't overflow */
-    width: auto; /* Ensures the image doesn't stretch */
+    width: 100%; /* Stretches to fill parent container */
+    max-width: 800px; /* Matches .placeholder */
     height: auto; /* Maintains aspect ratio */
-    display: block; /* Removes extra space below the image */
-    margin: 0 auto; /* Centers the image inside its parent */
+    display: block;
+    margin: 0 auto;
 }
+
 
 
 
