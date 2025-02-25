@@ -37,10 +37,9 @@ header nav ul li a {
   background-attachment: fixed;
   color: #FFFFFF;
   text-align: center;
-  min-height: 400px;
-  padding: 160px 0;
+  min-height: 300px;
+  padding: 140px 0;
   font-family: 'Playfair Display', serif;
-  font-size: 36px;
 }
 
 
@@ -68,7 +67,14 @@ header nav ul li a {
 
 
 .hero h1 {
-  font-size: 3em;
+  font-size: 32px;  
+  margin-bottom: 10px;  /* Adjust space below the h1 */
+}
+
+.hero b {
+  font-size: 21px;  
+  margin-top: 0;  
+  margin-bottom: 10px;  
 }
 
 section {
