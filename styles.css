@@ -112,7 +112,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
     gap: 10px; /* Space between icons */
-    max-width: 1000px; /* Adjust width to fit content */
+    max-width: 100%; /* Adjust width to fit content */
     margin: 0 auto; /* Centering */
     justify-items: center; /* Center icons */
 }
@@ -120,6 +120,8 @@ footer {
 .amenities-container img {
     width: 30px;
     height: 30px;
+    object-fit: contain;
+    margin: 5px;
 }
 
 
