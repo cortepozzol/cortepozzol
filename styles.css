@@ -36,11 +36,14 @@ header nav ul li a {
 }
 
 .placeholder {
-  background-color: #2C3E50;
-  color: white;
-  text-align: center;
-  padding: 60px 0;
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    max-width: 800px; /* Adjust to fit your design */
+    margin: 0 auto; /* Centers the entire section */
 }
+
 
 .hero h1 {
   font-size: 3em;
