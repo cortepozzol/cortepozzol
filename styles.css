@@ -40,16 +40,17 @@ header nav ul li a {
     color: white;
     text-align: center;
     padding: 60px 0;
-    max-width: 800px; /* Adjust to fit your design */
-    margin: 0 auto; /* Centers the entire section */
+    max-width: 800px; /* Limits section width */
+    margin: 0 auto; /* Centers the section */
 }
 
 .image-container {
-    display: flex; /* Ensures image is centered inside */
-    justify-content: center; /* Centers image horizontally */
+    display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
+
 
 .hero h1 {
   font-size: 3em;
@@ -98,7 +99,9 @@ footer {
 .responsive-img {
     max-width: 100%; /* Ensures the image never exceeds its container */
     height: auto; /* Maintains aspect ratio */
-    display: block; /* Removes extra space below the image */
+    width: auto; /* Allows the image to shrink if necessary */
+    max-height: 400px; /* Limits image height (adjust as needed) */
+    object-fit: contain; /* Ensures image scales properly within its container */
 }
 
 
