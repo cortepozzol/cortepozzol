@@ -122,21 +122,24 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    max-width: 100%; /* Let the section take up the full width */
-    margin: 0 auto; /* Centers the section */
+    width: 100%; /* Full width of the screen */
+    margin: 0 auto; /* Centering the section */
 }
 
 .image-container-amenities {
     width: 100%;
-    max-width: 1000px; /* Ensure the container takes the full width of the screen */
-    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100vw; /* Ensure the container never exceeds viewport width */
+    margin: 0 auto;
     overflow: hidden; /* Prevents overflow issues */
 }
 
 .image-container-amenities img {
-    width: 100%; /* Forces image to take up full width of the container */
-    height: auto; /* Keeps the aspect ratio */
+    width: 100%; /* Forces the image to fill the container width */
+    height: auto; /* Maintains the aspect ratio */
+    max-width: 100%; /* Prevents image from exceeding container width */
+    display: block; /* Removes any whitespace below the image */
 }
+
 
 
 
