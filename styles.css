@@ -34,9 +34,10 @@ header nav ul li a {
   background-size: cover; /* Ensure it covers the entire viewport */
   background-position: center; /* Center the image */
   background-attachment: fixed; /* Optional: makes the image stay fixed when scrolling */
-  color: white; /* Ensure text remains visible */
+  color: #8c1313; /* Ensure text remains visible */
   text-align: center;
-  padding: 100px 0; /* Adjust padding as necessary to make space for the text */
+  font-family: 'Playfair Display', sans-serif; /* Use Roboto font */
+  padding: 170px 0; /* Adjust padding as necessary to make space for the text */
 }
 
 
