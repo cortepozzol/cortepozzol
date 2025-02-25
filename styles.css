@@ -128,7 +128,7 @@ footer {
 
 .image-container-amenities {
     width: 100%;
-    max-width: 100%; /* Ensure the container takes the full width of the screen */
+    max-width: 1000px; /* Ensure the container takes the full width of the screen */
     margin: 0 auto; /* Center the image horizontally */
     overflow: hidden; /* Prevents overflow issues */
 }
