@@ -102,49 +102,27 @@ footer {
   color: white;
   padding: 10px 
 
-.amenities-grid {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
-        }
-        .amenity {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .icon {
-            width: 60px;
-            height: 60px;
-            margin-bottom: 10px;
-        }
-        .title {
-            color: #8B1818;
-            font-size: 1rem;
-            font-weight: 500;
-            margin: 0;
-        }
+.amenities {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8f8f8; /* Optional background color */
+}
 
-        /* Responsive adjustments */
-        @media (min-width: 480px) {
-            .grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-        @media (min-width: 768px) {
-            .grid {
-                grid-template-columns: repeat(4, 1fr);
-            }
-            .icon {
-                width: 80px;
-                height: 80px;
-            }
-        }
+.amenities-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Space between icons */
+    max-width: 100%; /* Adjust width to fit content */
+    margin: 0 auto; /* Centering */
+    justify-items: center; /* Center icons */
+}
+
+.amenities-container img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 5px;
+}
 
 
 
