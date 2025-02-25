@@ -30,18 +30,18 @@ header nav ul li a {
 
 
 .hero {
-  background: linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.86)), 
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), 
               url('images/pexels-simone-coltri-14865557-6317420.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: #FFFFFF;
   text-align: center;
-  min-height: 700px;
-  padding: 160px 0;
+  min-height: 500px;
+  padding: 180px 0;
   font-family: 'Playfair Display', serif;
 }
-g
+
 
 .placeholder {
     background-color: #2C3E50;
