@@ -87,9 +87,11 @@ footer {
   padding: 10px 
 
 .responsive-img {
-    max-width: 80%; /* Ensures image doesn't exceed 80% of its container */
+    max-width: 600px; 
+    width: 100%;
     height: auto;
-    display: block; 
+    display: block;
     margin: 0 auto;
 }
+
 
