@@ -90,11 +90,13 @@ footer {
   padding: 10px 
 
 .responsive-img {
-    width: 100%;
-    max-width: 600px; /* Adjust as needed */
-    height: auto;
-    object-fit: contain; /* Keeps the full image inside the dimensions */
+    width: 100%; /* Forces image to take full width of the screen */
+    max-width: 100vw; /* Ensures image never exceeds the viewport width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra space below the image */
+    margin: 0 auto; /* Centers the image horizontally */
 }
+
 
 
 
