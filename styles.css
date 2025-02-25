@@ -117,12 +117,11 @@ footer {
     justify-items: center; /* Center icons */
 }
 
-.amenities-container img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    margin: 5px;
+section.amenities .amenities-container img {
+    width: 50px !important;
+    height: 50px !important;
 }
+
 
 
 
