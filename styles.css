@@ -122,13 +122,13 @@ footer {
     color: white;
     text-align: center;
     padding: 40px 0;
-    max-width: 1200px; /* Limits section width */
+    max-width: 1000px; /* Limits section width */
     margin: 0 auto; /* Centers the section */
 }
 
 .image-container-amenities {
     width: 100%;
-    max-width: 1200px; /* Set a maximum width for the image */
+    max-width: 1000px; /* Set a maximum width for the image */
     margin: 0 auto; /* Center the image horizontally */
     overflow: hidden; /* Prevents overflow issues */
 }
