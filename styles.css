@@ -28,12 +28,17 @@ header nav ul li a {
   text-decoration: none;
 }
 
+
 .hero {
-  background-color: #2C3E50;
-  color: white;
+  background-image: url('images/pexels-simone-coltri-14865557-6317420.jpg'); 
+  background-size: cover; /* Ensure it covers the entire viewport */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Optional: makes the image stay fixed when scrolling */
+  color: white; /* Ensure text remains visible */
   text-align: center;
-  padding: 40px 0;
+  padding: 100px 0; /* Adjust padding as necessary to make space for the text */
 }
+
 
 .placeholder {
     background-color: #2C3E50;
