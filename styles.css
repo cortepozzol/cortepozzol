@@ -34,10 +34,12 @@ header nav ul li a {
   background-size: cover; /* Ensure it covers the entire viewport */
   background-position: center; /* Center the image */
   background-attachment: fixed; /* Optional: makes the image stay fixed when scrolling */
-  color: #8c1313; /* Ensure text remains visible */
+  color: white; /* Ensure text remains visible */
   text-align: center;
-  font-family: 'Playfair Display', sans-serif; /* Use Roboto font */
+  font-family: 'Playfair Display', serif; 
   padding: 170px 0; /* Adjust padding as necessary to make space for the text */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/pexels-simone-coltri-14865557-6317420.jpg');
+
 }
 
 
