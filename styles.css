@@ -202,43 +202,16 @@ footer {
 } -->
 
 
-.image-text-section {
-    background-color: white
-    padding: 40px 0;
-    text-align: center; 
+.content-wrapper2 {
+    display: flex;
+    justify-content: space-between; /* Evenly spaces the images */
+    gap: 20px; /* Adds space between the images */
+    width: 100%;
 }
 
 .image-container2 {
-    display: flex;
-    justify-content: space-between; /* Evenly spaces the images */
-    gap: 20px; /* Optional: Adds space between images */
-    max-width: 1200px; /* Maximum width for the section */
-    margin: 0 auto; /* Centers the container horizontally */
-}
-
-.responsive-img2 {
-    width: 20%;
-    height: auto;
-    display: block;
-    max-width: 30%; /* Adjust this to control how large each image can be */
-}
-
-.text-container2 {
-    max-width: 1200px; /* Matches the max width of the images */
-    margin: 40px auto 0; 
-    text-align: center;
-    color: #8c1313;
-}
-
-.text-container2 h2 {
-    font-size: 38px;
-    color: #8c1313;
-}
-
-.text-container2 p {
-    font-size: 28px;
-    color: #8c1313;
-    line-height: 1.5;
+    flex: 1; /* Makes each image container take up equal space */
+    max-width: 350px; /* Limits the width of each image container */
 }
 
 
