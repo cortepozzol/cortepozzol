@@ -202,31 +202,9 @@ footer {
 } -->
 
 
-.content-wrapper2 {
-    display: flex;
-    justify-content: space-between; /* Evenly spaces the images */
-    gap: 20px; /* Adds space between the images */
-    width: 100%;
+.imgContainer{
+    float:left;
 }
-
-.image-container2 {
-    flex: 1; /* Makes each image container take up equal space */
-    display: flex; /* To ensure the image stretches */
-    justify-content: center; /* Centers the image inside its container */
-    max-width: 200px;
-    width: 100%;
-}
-
-.responsive-img2 {
-    width: 100%; /* Image will be responsive within the container */
-    height: auto; /* Keeps aspect ratio */
-    display: block; /* Removes extra space */
-    max-width: 100%; /* Ensures the image doesn't overflow its container */
-}
-
-
-
-
 
 
 
