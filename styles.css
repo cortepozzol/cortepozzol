@@ -203,9 +203,9 @@ footer {
 
 
 .image-text-section {
-    background-color: #f4f4f4; /* Change to any background color you want */
+    background-color: white
     padding: 40px 0;
-    text-align: center; /* Centers the text */
+    text-align: center; 
 }
 
 .image-container2 {
@@ -226,16 +226,17 @@ footer {
 .text-container2 {
     max-width: 1200px; /* Matches the max width of the images */
     margin: 40px auto 0; /* Centers the text and adds some space above */
+    text-align: center;
 }
 
 .text-container2 h2 {
-    font-size: 28px;
-    color: #333;
+    font-size: 38px;
+    color: #8c1313;
 }
 
 .text-container2 p {
-    font-size: 18px;
-    color: #666;
+    font-size: 28px;
+    color: #8c1313;
     line-height: 1.5;
 }
 
