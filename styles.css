@@ -202,13 +202,18 @@ footer {
 } -->
 
 
-div {
+.image-container2 {
     display: flex;
     justify-content: center; /* Centers the images horizontally */
-    gap: 40px; /* Adds space between the images, adjust as needed */
+    gap: 40px; /* Adds space between the images */
     width: 100%; /* Ensures the container stretches across the page */
-    max-width: 1200px; /* Optional: Limits the width of the container */
+    max-width: 1200px; /* Optional: Limits the container width */
     margin: 0 auto; /* Centers the container itself */
+}
+
+.image-container2 img {
+    height: 672px; /* Keeps the height fixed */
+    width: 378px; /* Keeps the width fixed */
 }
 
 
