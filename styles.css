@@ -67,7 +67,7 @@ header nav ul li a:hover {
 
 .placeholder {
     background-color: white;
-    color: white;
+    color: #8c1313;
     padding: 40px 0;
     max-width: 1200px; /* You can adjust this for the section's width */
     margin: 0 auto; /* Centers the section */
