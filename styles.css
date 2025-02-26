@@ -211,7 +211,7 @@ footer {
 
 .image-container2 {
     flex: 1; /* Makes each image container take up equal space */
-    max-width: 350px; /* Limits the width of each image container */
+    max-width: 200; /* Limits the width of each image container */
 }
 
 
