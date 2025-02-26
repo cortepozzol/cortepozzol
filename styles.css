@@ -216,6 +216,21 @@ footer {
     width: 378px; /* Keeps the width fixed */
 }
 
+.booking-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8c1313; /* Red background */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px; /* Rounded edges */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.booking-button:hover {
+    background-color: #c80000; /* Lighter red on hover */
+}
+
 
 
 
