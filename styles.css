@@ -135,12 +135,12 @@ footer {
     margin: 0;
 }
 
-
+<!--
 .image-container-amenities img {
     width: 100%; /* Make sure the image fills its container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any extra space below the image */
-}
+} -->
 
 
 
