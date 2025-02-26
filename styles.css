@@ -124,6 +124,8 @@ footer {
     padding: 0px 0;
     margin: 0 auto;
     position: relative; /* Keep relative positioning */
+    width: 100%; 
+    max-width: 1200px; 
     box-sizing: border-box;
 }
 
