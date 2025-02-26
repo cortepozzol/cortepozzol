@@ -20,6 +20,7 @@ header {
   width: auto; /* Make the width auto to adjust to the content */
   max-width: 100%; /* Ensure the nav doesn't go beyond the page */
   box-sizing: border-box; /* Includes padding in the element's total width */
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
 header nav ul {
@@ -111,6 +112,7 @@ header nav ul li a:hover {
   font-size: 28px;  
   margin-top: 0;  
   margin-bottom: 10px;  
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
 section {
