@@ -118,24 +118,6 @@ footer {
   padding: 10px 
 
 .amenities {
-    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
-              url('images/Amenities.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #FFFFFF;
-    text-align: center;
-    min-height: 300px;
-    padding: 150px 0;
-    font-family: 'Playfair Display', serif;
-}
-
-.amenities h1 {
-  font-size: 88px;  
-  margin-bottom: 3px;  /* Adjust space below the h1 */
-}
-
-<!-- .amenities {
     background-color: #000000;
     color: white;
     text-align: center;
@@ -143,7 +125,7 @@ footer {
     margin: 0 auto;
     position: relative; /* Make the parent container a positioning context */
     box-sizing: border-box;
-} -->
+}
 
 .image-container-amenities {
     position: absolute; /* Position it absolutely within the parent */
