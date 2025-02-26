@@ -125,6 +125,7 @@ footer {
     padding: 0px 0;
     margin: 0 auto;
     position: relative; /* Make the parent container a positioning context */
+    box-sizing: border-box;
 }
 
 .image-container-amenities {
