@@ -9,13 +9,13 @@ body {
 header {
   background-color: #d8d8d8; 
   color: #8c1313; 
-  padding: 10px 20px; /* Padding around the content */
+  padding: 6px 15px; /* Padding around the content */
   position: fixed; /* Make the navigation bar fixed at the top */
   top: 20px; /* Stick it to the top of the page */
-  left: 200px; /* Stick it to the left */
-  right: 200px; /* Ensure it spans the whole width */
+  left: 350px; /* Stick it to the left */
+  right: 350px; /* Ensure it spans the whole width */
   z-index: 1000; /* Make sure it's on top of other elements */
-  border-radius: 15px; /* Rounded corners */
+  border-radius: 25px; /* Rounded corners */
   margin: 0 auto; /* Center it within the page */
   width: auto; /* Make the width auto to adjust to the content */
   max-width: 100%; /* Ensure the nav doesn't go beyond the page */
@@ -37,7 +37,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: white; /* White text color */
+  color: #8c1313; 
   text-decoration: none; /* Remove underline from links */
   padding: 10px 20px; /* Padding inside the links */
   display: inline-block; /* Make the links inline-block */
@@ -48,7 +48,6 @@ header nav ul li a {
 header nav ul li a:hover {
   background-color: #444; /* Darker background color on hover */
 }
-
 
 
 .hero {
