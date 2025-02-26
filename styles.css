@@ -130,6 +130,10 @@ footer {
     font-family: 'Playfair Display', serif;
 }
 
+.amenities h1 {
+  font-size: 88px;  
+  margin-bottom: 3px;  /* Adjust space below the h1 */
+}
 
 <!-- .amenities {
     background-color: #000000;
