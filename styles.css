@@ -94,7 +94,19 @@ header nav ul li a:hover {
     flex: 1; /* Makes the text container take up equal space */
     padding: 0 20px; /* Optional padding between text and image */
     text-align: center;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
+
+.text-container h2 {
+  font-size: 88px;  
+  margin-bottom: 3px; 
+  font-family: 'Playfair Display', serif;
+}
+
+.text-container p {
+  font-size: 28px;  
+  margin-top: 0;  
+  margin-bottom: 10px;  
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
 .responsive-img {
