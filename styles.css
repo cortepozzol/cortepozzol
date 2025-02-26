@@ -121,8 +121,8 @@ header nav ul li a:hover {
   margin-bottom: 3px;  /* Adjust space below the h1 */
 }
 
-.hero p {
-  font-size: 28px;  
+.hero b {
+  font-size: 20px;  
   margin-top: 0;  
   margin-bottom: 10px;  
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
