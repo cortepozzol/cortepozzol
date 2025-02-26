@@ -203,9 +203,14 @@ footer {
 
 
 div {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    gap: 40px; /* Adds space between the images, adjust as needed */
+    width: 100%; /* Ensures the container stretches across the page */
+    max-width: 1200px; /* Optional: Limits the width of the container */
+    margin: 0 auto; /* Centers the container itself */
 }
+
 
 
 
