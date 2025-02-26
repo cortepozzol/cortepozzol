@@ -211,7 +211,15 @@ footer {
 
 .image-container2 {
     flex: 1; /* Makes each image container take up equal space */
-    max-width: 200; /* Limits the width of each image container */
+    display: flex; /* To ensure the image stretches */
+    justify-content: center; /* Centers the image inside its container */
+}
+
+.responsive-img2 {
+    width: 100%; /* Image will be responsive within the container */
+    height: auto; /* Keeps aspect ratio */
+    display: block; /* Removes extra space */
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
 }
 
 
