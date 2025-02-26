@@ -129,7 +129,7 @@ footer {
 
 
 .image-container-amenities {
-    max-width: 100%; /* Set a max-width for larger screens */
+    width: 100%; 
     margin: 0 auto; /* Centers it */
 }
 
