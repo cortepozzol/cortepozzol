@@ -127,12 +127,12 @@ footer {
     box-sizing: border-box;
 }
 
+
 .image-container-amenities {
-    width: 100%; /* Take the full width of the container */
-    max-width: 100%; /* Ensure it doesn't exceed 100% of the parent */
-    margin: 0 auto; /* Center it horizontally */
-    overflow: hidden; /* Hide anything overflowing */
+    max-width: 1200px; /* Set a max-width for larger screens */
+    margin: 0 auto; /* Centers it */
 }
+
 
 .image-container-amenities img {
     width: 100%; /* Make sure the image fills its container */
