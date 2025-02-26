@@ -109,6 +109,14 @@ header nav ul li a:hover {
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
+.text-container q {
+  font-size: 24px;  
+  margin-top: 0;  
+  margin-bottom: 10px;  
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  color: white;
+}
+
 .responsive-img {
     width: 100%; /* Image will be responsive within the container */
     height: auto; /* Keeps aspect ratio */
@@ -121,7 +129,7 @@ header nav ul li a:hover {
   margin-bottom: 3px;  /* Adjust space below the h1 */
 }
 
-.hero b {
+.hero p {
   font-size: 20px;  
   margin-top: 0;  
   margin-bottom: 10px;  
