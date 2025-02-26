@@ -7,13 +7,13 @@ body {
 }
 
 header {
-  background-color: #333; /* Dark background color */
-  color: white; /* White text color */
+  background-color: #d8d8d8; 
+  color: #8c1313; 
   padding: 10px 20px; /* Padding around the content */
   position: fixed; /* Make the navigation bar fixed at the top */
-  top: 0; /* Stick it to the top of the page */
-  left: 0; /* Stick it to the left */
-  right: 0; /* Ensure it spans the whole width */
+  top: 20px; /* Stick it to the top of the page */
+  left: 200px; /* Stick it to the left */
+  right: 200px; /* Ensure it spans the whole width */
   z-index: 1000; /* Make sure it's on top of other elements */
   border-radius: 15px; /* Rounded corners */
   margin: 0 auto; /* Center it within the page */
