@@ -217,7 +217,7 @@ footer {
 }
 
 .responsive-img2 {
-    width: 100%;
+    width: 20%;
     height: auto;
     display: block;
     max-width: 30%; /* Adjust this to control how large each image can be */
@@ -225,8 +225,9 @@ footer {
 
 .text-container2 {
     max-width: 1200px; /* Matches the max width of the images */
-    margin: 40px auto 0; /* Centers the text and adds some space above */
+    margin: 40px auto 0; 
     text-align: center;
+    color: #8c1313;
 }
 
 .text-container2 h2 {
