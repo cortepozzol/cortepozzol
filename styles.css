@@ -7,26 +7,48 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: black;
-  padding: 10px;
+  background-color: #333; /* Dark background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding around the content */
+  position: fixed; /* Make the navigation bar fixed at the top */
+  top: 0; /* Stick it to the top of the page */
+  left: 0; /* Stick it to the left */
+  right: 0; /* Ensure it spans the whole width */
+  z-index: 1000; /* Make sure it's on top of other elements */
+  border-radius: 15px; /* Rounded corners */
+  margin: 0 auto; /* Center it within the page */
+  width: auto; /* Make the width auto to adjust to the content */
+  max-width: 100%; /* Ensure the nav doesn't go beyond the page */
+  box-sizing: border-box; /* Includes padding in the element's total width */
 }
 
 header nav ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+  text-align: center; /* Center the list items */
+  margin: 0; /* Remove margin */
+  display: flex; /* Display list items as a row */
+  justify-content: center; /* Center the items horizontally */
 }
 
 header nav ul li {
-  display: inline;
-  margin: 0 15px;
+  display: inline-block; /* Make the items inline */
+  margin: 0 15px; /* Space between menu items */
 }
 
 header nav ul li a {
-  color: white;
-  text-decoration: none;
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 20px; /* Padding inside the links */
+  display: inline-block; /* Make the links inline-block */
+  border-radius: 10px; /* Rounded corners for the links */
+  transition: background-color 0.3s; /* Smooth background color transition */
 }
+
+header nav ul li a:hover {
+  background-color: #444; /* Darker background color on hover */
+}
+
 
 
 .hero {
