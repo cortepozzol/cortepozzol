@@ -117,8 +117,15 @@ footer {
   color: white;
   padding: 10px 
 
-
 .amenities {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
+              url('images/Amenities.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+<!-- .amenities {
     background-color: #000000;
     color: white;
     text-align: center;
@@ -126,7 +133,7 @@ footer {
     margin: 0 auto;
     position: relative; /* Make the parent container a positioning context */
     box-sizing: border-box;
-}
+} -->
 
 .image-container-amenities {
     position: absolute; /* Position it absolutely within the parent */
