@@ -202,6 +202,44 @@ footer {
 } -->
 
 
+.image-text-section {
+    background-color: #f4f4f4; /* Change to any background color you want */
+    padding: 40px 0;
+    text-align: center; /* Centers the text */
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: space-between; /* Evenly spaces the images */
+    gap: 20px; /* Optional: Adds space between images */
+    max-width: 1200px; /* Maximum width for the section */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+.responsive-img2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 30%; /* Adjust this to control how large each image can be */
+}
+
+.text-container2 {
+    max-width: 1200px; /* Matches the max width of the images */
+    margin: 40px auto 0; /* Centers the text and adds some space above */
+}
+
+.text-container2 h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.text-container2 p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
 
 
 
