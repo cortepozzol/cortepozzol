@@ -122,6 +122,12 @@ footer {
               url('images/Amenities.png');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    text-align: center;
+    min-height: 300px;
+    padding: 150px 0;
+    font-family: 'Playfair Display', serif;
 }
 
 
