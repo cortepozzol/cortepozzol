@@ -93,6 +93,7 @@ header nav ul li a:hover {
 .text-container {
     flex: 1; /* Makes the text container take up equal space */
     padding: 0 20px; /* Optional padding between text and image */
+    align-items: center;
     text-align: center;
 }
 
@@ -211,10 +212,6 @@ footer {
     margin: 0 auto; /* Centers the container itself */
 }
 
-.image-container2 img {
-    height: 672px; /* Keeps the height fixed */
-    width: 378px; /* Keeps the width fixed */
-}
 
 
 section.placeholder .text-container a.booking-button {
