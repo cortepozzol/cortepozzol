@@ -101,6 +101,7 @@ header nav ul li a:hover {
   font-size: 54px;  
   margin-bottom: 3px; 
   font-family: 'Playfair Display', serif;
+  font-weight: normal;
 }
 
 .text-container p {
@@ -204,55 +205,55 @@ footer {
 
 
 .image-container2 {
-  display: flex !important;
-  justify-content: center !important;
-  gap: 40px !important;
-  height: 100% !important;
-  width: 100% !important;
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-}
-
-
-.image-wrapper {
   display: flex;
-  gap: 40px;
-  justify-content: center; /* Center the images within the wrapper */
+  justify-content: center; /* Centers all images horizontally */
+  align-items: center; /* Vertically centers the images */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.image-wrapper img {
+.image-container2 img {
   height: 672px;
   width: 378px;
 }
 
-.image-container2, .image-wrapper, .image-wrapper img {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.testimonials {
+  background-color: white;
+  color: #8c1313;
+  padding: 40px 0;
+  max-width: 1200px; /* You can adjust this for the section's width */
+  margin: 0 auto; /* Centers the section */
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  gap: 20px; /* Adds space between the image and text */
 }
 
 
-
-section.placeholder .text-container a.booking-button {
-  display: inline-block !important;
-  padding: 10px 20px !important;
-  background-color: #8c1313 !important;
-  color: white !important;
-  text-decoration: none !important;
-  font-weight: bold !important;
-  border-radius: 15px !important;
-  transition: background-color 0.3s ease !important;
+/* Specific styles for the quotes to position them */
+.text-container w {
+  font-size: 24px;
+  font-style: italic;
+  position: absolute;
+  max-width: 80%; /* Adjust for quote width */
 }
 
-section.placeholder .text-container a.booking-button:hover {
-  background-color: #c80000 !important;
+.text-container .quote-left {
+  left: 10%; /* Positioned to the left */
+  top: 20%; /* Adjust the vertical positioning */
 }
 
+.text-container .quote-center {
+  left: 50%;
+  transform: translateX(-50%); /* Centers it horizontally */
+  bottom: 20%; /* Positioned towards the bottom */
+}
 
-
-
-
-
+.text-container .quote-right {
+  right: 10%; /* Positioned to the right */
+  top: 50%; /* Adjust for vertical alignment */
+}
 	
 
 
