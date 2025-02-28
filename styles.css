@@ -219,7 +219,7 @@ footer {
 
 
 
-.booking-button {
+. text-container .booking-button {
     display: inline-block !important;
     padding: 10px 20px !important;
     background-color: #8c1313 !important; /* Red background */
