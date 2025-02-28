@@ -11,12 +11,12 @@ header {
   color: #8c1313; 
   padding: 6px 15px; /* Padding around the content */
   position: fixed; /* Make the navigation bar fixed at the top */
-  top: 20px; /* Stick it to the top of the page */
-  left: 400px; /* Stick it to the left */
-  right: 400px; /* Ensure it spans the whole width */
-  z-index: 1000; /* Make sure it's on top of other elements */
-  border-radius: 25px; /* Rounded corners */
-  margin: 0 auto; /* Center it within the page */
+  top: 20px; 
+  left: 400px;
+  right: 400px; 
+  z-index: 1000; 
+  border-radius: 25px; 
+  margin: 0 auto; 
   width: auto; /* Make the width auto to adjust to the content */
   max-width: 100%; /* Ensure the nav doesn't go beyond the page */
   box-sizing: border-box; /* Includes padding in the element's total width */
