@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+
+.testimonials {
+    all: unset;
+    background-color: white;
+    color: #8c1313;
+    padding: 40px 0;
+    max-width: 1200px; /* You can adjust this for the section's width */
+    margin: 0 auto; /* Centers the section */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    gap: 20px; /* Adds space between the image and text */
+  }
+
+.text-container {
+    flex: 1; /* Makes the text container take up equal space */
+    padding: 0 20px; /* Optional padding between text and image */
+    align-items: center;
+    text-align: center;
+}
+
+.text-container h2 {
+  font-size: 54px;  
+  margin-bottom: 3px; 
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.text-container p {
+  font-size: 24px;  
+  margin-top: 0;  
+  margin-bottom: 10px;  
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
+
+.text-container q {
+  font-size: 24px;  
+  margin-top: 0;  
+  margin-bottom: 10px;  
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  color: white;
+}
