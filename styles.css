@@ -217,21 +217,19 @@ footer {
 }
 
 
-
-
-. text-container .booking-button {
-    display: inline-block !important;
-    padding: 10px 20px !important;
-    background-color: #8c1313 !important; /* Red background */
-    color: white !important;
-    text-decoration: none !important;
-    font-weight: bold !important;
-    border-radius: 15px !important; /* Rounded edges */
-    transition: background-color 0.3s ease !important; /* Smooth hover transition */
+section.placeholder .text-container a.booking-button {
+  display: inline-block !important;
+  padding: 10px 20px !important;
+  background-color: #8c1313 !important;
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  border-radius: 15px !important;
+  transition: background-color 0.3s ease !important;
 }
 
-.booking-button:hover {
-    background-color: #c80000 !important; /* Lighter red on hover */
+section.placeholder .text-container a.booking-button:hover {
+  background-color: #c80000 !important;
 }
 
 
