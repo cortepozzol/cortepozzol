@@ -216,29 +216,22 @@ footer {
     width: 378px; /* Keeps the width fixed */
 }
 
-ul {
-  list-style: none; /* Removes default bullet points */
-  padding: 0;
-}
 
-li {
-  display: inline-block; /* Ensures the button behaves like a block element */
-}
 
 
 .booking-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #8c1313; /* Red background */
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 15px; /* Rounded edges */
-    transition: background-color 0.3s ease; /* Smooth hover transition */
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    background-color: #8c1313 !important; /* Red background */
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    border-radius: 15px !important; /* Rounded edges */
+    transition: background-color 0.3s ease !important; /* Smooth hover transition */
 }
 
 .booking-button:hover {
-    background-color: #c80000; /* Lighter red on hover */
+    background-color: #c80000 !important; /* Lighter red on hover */
 }
 
 
