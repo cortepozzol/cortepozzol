@@ -204,12 +204,31 @@ footer {
 
 
 .image-container2 {
-    display: flex;
-    justify-content: center; /* Centers the images horizontally */
-    gap: 40px; /* Adds space between the images */
-    width: 100%; /* Ensures the container stretches across the page */
-    max-width: 1200px; /* Optional: Limits the container width */
-    margin: 0 auto; /* Centers the container itself */
+  display: flex !important;
+  justify-content: center !important;
+  gap: 40px !important;
+  height: 100% !important;
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+
+.image-wrapper {
+  display: flex;
+  gap: 40px;
+  justify-content: center; /* Center the images within the wrapper */
+}
+
+.image-wrapper img {
+  height: 672px;
+  width: 378px;
+}
+
+.image-container2, .image-wrapper, .image-wrapper img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
