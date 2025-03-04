@@ -353,3 +353,51 @@ footer {
   border-radius: 10px;
 }
 
+.rates-container {
+  background: white;
+  padding: 20px;
+  max-width: 100%;
+  text-align: center;
+}
+.rates-header {
+  font-size: 54px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin-bottom: 15px;
+  color:#8c1313
+}
+.rates {
+  display: grid;
+  flex-direction: column;
+  gap: 10px;
+  color: #8c1313;
+}
+.rate-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #8c1313;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rate-item span:nth-child(1) {
+  text-align: left;
+}
+.rate-item span:nth-child(2) {
+  text-align: center;
+}
+.rate-item span:nth-child(3) {
+  text-align: right;
+}
+.rate-item.header {
+  padding: 12px;
+  border-radius: 5px;
+  font-weight:bold ;
+  color:#8c1313
+  
+}
+.rate-item:last-child {
+  border-bottom: none;
+}
