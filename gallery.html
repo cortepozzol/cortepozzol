@@ -21,19 +21,43 @@
   </header>
 
   <!-- Image Gallery -->
-  <section class="gallery">
-    <h1>Our Gallery</h1>
-    <div class="gallery-grid">
-      <img src="https://via.placeholder.com/300x200" alt="Image 1">
-      <img src="https://via.placeholder.com/300x200" alt="Image 2">
-      <img src="https://via.placeholder.com/300x200" alt="Image 3">
-      <img src="https://via.placeholder.com/300x200" alt="Image 4">
+
+<section class="gallery">
+  <div class="slideshow-container2">
+    <div class="slides-wrapper">
+        <div class="slide"><img src="images/IMG_3025.jpg"></div>
+        <div class="slide"><img src="images/pexels-simone-coltri-14865557-6317420.jpg"></div>
     </div>
-  </section>
+        
+    <!-- Navigation Arrows -->
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
+</section>
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 B&B Corte Pozzol | All rights reserved</p>
   </footer>
+
+<script>
+let slideIndex = 0;
+
+function changeSlide(n) {
+    let slides = document.querySelector(".slides-wrapper");
+    let totalSlides = document.querySelectorAll(".slide").length;
+    
+    slideIndex += n;
+    
+    if (slideIndex >= totalSlides) { slideIndex = 0; }
+    if (slideIndex < 0) { slideIndex = totalSlides - 1; }
+
+    let offset = -slideIndex * 100 + "%";
+    slides.style.transform = "translateX(" + offset + ")";
+}
+
+
+</script>
+
 </body>
 </html>

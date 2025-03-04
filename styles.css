@@ -135,9 +135,6 @@ header nav ul li a:hover {
   color: #AE3737;
 }
 
-
-
-
 .responsive-img {
     width: 100%; /* Image will be responsive within the container */
     height: auto; /* Keeps aspect ratio */
@@ -339,3 +336,20 @@ footer {
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+.gallery {
+  text-align: center;
+  margin: 40px 0; /* Add some space above and below */
+  color: #8c1313; /* Adjust color to match your theme */
+}
+
+/* Square Slideshow Container */
+.slideshow-container2 {
+  position: relative;
+  max-width: 850px;
+  height: 500px; /* Ensures a square shape */
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
