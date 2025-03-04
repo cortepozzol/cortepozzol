@@ -126,12 +126,17 @@ header nav ul li a:hover {
 }
 
 .text-container q2 {
+  display: block; /* Forces it to take up full width */
+  text-align: center; /* Ensures it is centered */
   font-size: 24px;  
   margin-top: 0;  
   margin-bottom: 10px;  
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
   color: #AE3737;
 }
+
+
+
 
 .responsive-img {
     width: 100%; /* Image will be responsive within the container */
@@ -287,5 +292,50 @@ footer {
   font-weight: normal;
 }
 
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  max-width: 500px; /* Adjust to match your image size */
+  margin: auto;
+  overflow: hidden; /* Hide overflowing images */
+}
 
+/* Wrapper for slides */
+.slides-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth sliding effect */
+}
 
+/* Individual slides */
+.slide {
+  min-width: 100%; /* Each image takes full container width */
+  box-sizing: border-box;
+}
+
+/* Slide images */
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Navigation buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
