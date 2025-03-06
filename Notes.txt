@@ -1,0 +1,97 @@
+
+.amenities {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8f8f8; /* Optional background color */
+}
+
+.amenities-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Space between icons */
+    max-width: 100%; /* Adjust width to fit content */
+    margin: 0 auto; /* Centering */
+    justify-items: center; /* Center icons */
+}
+
+.amenities-container img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 5px;
+}
+
+$$$$$$$$$$$$$$$$$$$$$
+
+<section class="amenities">
+    <h2>Our Amenities</h2>
+    <div class="amenities-container">
+        <img src="images/croissant.png" alt="Amenity 1">
+        <img src="images/wifi.png" alt="Amenity 2">
+        <img src="images/tv.png" alt="Amenity 3">
+        <img src="images/coffee-machine.png" alt="Amenity 4">
+        <img src="images/safe.png" alt="Amenity 5">
+        <img src="images/park.png" alt="Amenity 6">
+        <img src="images/ciao.png" alt="Amenity 7">
+        <img src="images/hello.png" alt="Amenity 8">
+    </div>
+</section>
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+.amenities {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; /* Full width of the screen */
+    margin: 0 auto; /* Centering the section */
+}
+
+.image-container-amenities {
+    width: 100%;
+    max-width: 100vw; /* Ensure the container never exceeds viewport width */
+    margin: 0 auto;
+    overflow: hidden; /* Prevents overflow issues */
+}
+
+.image-container-amenities img {
+    width: 100%; /* Forces the image to fill the container width */
+    height: auto; /* Maintains the aspect ratio */
+    max-width: 100%; /* Prevents image from exceeding container width */
+    display: block; /* Removes any whitespace below the image */
+}
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+<!-- Placeholder Section -->
+<section class="placeholder">
+    <h2>This website is currently under construction</h2>
+    <p>We will be available shortly</p>
+    <div class="image-container">
+        <img src="images/IMG_3025.jpg" alt="Img" class="responsive-img">
+    </div>
+</section>
+
+            <a href="contact.html" class="booking-button">Booking</a>
+
+
+
+
+
+
+- After main things are finished:
+	- NAVBAR
+	- FONTS
+	- IMAGES update
+	- Colors
+	- Use domain name
+	- Booking button hover (move style definition to .css)
+	- Documentation so website can be edited
+
+	Less prioritized:
+	- Italian version
+	- Mobile phone version
+
+
