@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td, th {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.month-header {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.prev, .next {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  margin: 5px;
+}
+.green {
+  background-color: #8BC34A; /* Green */
+}
+.orange {
+  background-color: #FF9800; /* Orange */
+}
+.red {
+  background-color: #F44336; /* Red */
+}
