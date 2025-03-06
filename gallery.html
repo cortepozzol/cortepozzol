@@ -11,11 +11,11 @@
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="rooms.html">Rooms</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="rooms.html">ROOMS</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
       </ul>
     </nav>
   </header>
@@ -25,14 +25,21 @@
 <section class="gallery">
   <div class="slideshow-container2">
     <div class="slides-wrapper">
-        <div class="slide"><img src="images/IMG_3025.jpg"></div>
         <div class="slide"><img src="images/pexels-simone-coltri-14865557-6317420.jpg"></div>
+        <div class="slide"><img src="images/IMG_3025.jpg"></div>
     </div>
         
     <!-- Navigation Arrows -->
     <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
     <a class="next" onclick="changeSlide(1)">&#10095;</a>
 </div>
+</section>
+
+<section class="placeholder">
+
+  <a href="contact.html" class="booking-button">Book Now</a>
+
+
 </section>
 
   <!-- Footer -->
@@ -55,7 +62,6 @@ function changeSlide(n) {
     let offset = -slideIndex * 100 + "%";
     slides.style.transform = "translateX(" + offset + ")";
 }
-
 
 </script>
 

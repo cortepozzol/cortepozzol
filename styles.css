@@ -339,7 +339,7 @@ footer {
 
 .gallery {
   text-align: center;
-  margin: 40px 0; /* Add some space above and below */
+  margin: 40px 0px 0px 0px; /* Add some space above and below */
   color: #8c1313; /* Adjust color to match your theme */
 }
 
@@ -400,4 +400,23 @@ footer {
 }
 .rate-item:last-child {
   border-bottom: none;
+}
+
+.booking-button {
+  display: block;
+  width: fit-content;
+  margin: 5px auto 10px auto; /* Moves button slightly upwards */
+  padding: 15px 30px;
+  background-color: #8c1313;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif; /* Font changed */
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.booking-button:hover {
+  background-color: #c80000; /* Lighter red on hover */
 }
