@@ -278,9 +278,10 @@ footer {
 
 .quotes-container {
   display: flex;
-  justify-content: space-between; /* Space between the quotes */
-  gap: 20px; /* Space between each quote */
+  justify-content: center; /* Space between the quotes */
+  gap: 50px; /* Space between each quote */
   margin-top: 20px;
+  margin-bottom: 0px
   margin: 100px;
 }
 
@@ -289,7 +290,26 @@ footer {
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
   font-style: italic; /* Optional, makes quotes italic */
   max-width: 30%; /* Ensures the quotes don't overflow */
+}
+
+.quotes-container2 {
+  display: flex;
+  justify-content: center; /* Space between the quotes */
+  gap: 340px; /* Space between each quote */
+  margin-top: 20px;
+  margin-bottom: 0px
+  margin: 100px;
+}
+
+.ppl {
+  font-size: 18px;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  font-style: normal; /* Optional, makes quotes italic */
+  max-width: 30%; /* Ensures the quotes don't overflow */
   text-align: center; /* Centers each quote */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
