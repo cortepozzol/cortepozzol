@@ -20,7 +20,6 @@ header {
   width: auto; /* Make the width auto to adjust to the content */
   max-width: 100%; /* Ensure the nav doesn't go beyond the page */
   box-sizing: border-box; /* Includes padding in the element's total width */
-  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
 header nav ul {
@@ -364,7 +363,7 @@ footer {
 .slideshow-container2 {
   position: relative;
   max-width: 850px;
-  height: 500px; /* Ensures a square shape */
+  height: 500px; 
   margin: auto;
   overflow: hidden;
   border-radius: 10px;
@@ -440,8 +439,9 @@ footer {
 
 .calendar-section {
     text-align: center; /* Centers content */
-    margin-top: 50px; /* Ensures spacing from previous sections */
+    margin-top: 5px; /* Ensures spacing from previous sections */
     position: relative; /* Prevents unintended positioning issues */
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
 
@@ -459,7 +459,7 @@ td, th {
   text-align: center;
   margin-bottom: 10px;
 }
-.prev, .next {
+.prev2, .next2 {
   cursor: pointer;
   padding: 10px;
   background-color: #f0f0f0;
